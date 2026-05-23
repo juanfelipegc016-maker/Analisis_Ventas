@@ -1,15 +1,15 @@
-# 📊 Análisis Exploratorio de Ventas — Tienda de Tecnología (2023)
+# Análisis Exploratorio de Ventas — Tienda de Tecnología (2023)
 
-Pipeline completo de análisis de datos en Python sobre ventas anuales de una tienda de tecnología colombiana. Incluye limpieza, EDA, 8 gráficas profesionales y exportación a Excel con múltiples hojas formateadas.
+Analisis de datos en Python sobre ventas anuales de una tienda de tecnología colombiana. Incluye limpieza, EDA, 8 gráficas profesionales y exportación a Excel con múltiples hojas formateadas.
 
-## 📋 Descripción
+##  Descripción
 
 El proyecto simula un caso real de análisis de datos de negocio:
 - **1.200 registros** de ventas con 6 categorías, 30 productos, 5 ciudades y 4 canales de venta
 - Distribución de ventas no uniforme para simular comportamiento real del mercado colombiano
 - Pipeline modular con etapas bien definidas: carga → limpieza → EDA → visualización → exportación
 
-## 🗂️ Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 02-analisis-ventas-python/
@@ -31,7 +31,7 @@ El proyecto simula un caso real de análisis de datos de negocio:
     └── reporte_ventas_2023.xlsx → Excel con 6 hojas de análisis
 ```
 
-## 🚀 Cómo Ejecutar
+## Ejecutar
 
 ```bash
 # 1. Clonar e instalar dependencias
@@ -46,7 +46,7 @@ python generar_datos.py
 python analisis.py
 ```
 
-## 📈 Gráficas Generadas
+##  Gráficas Generadas
 
 | # | Nombre | Tipo | Variables |
 |---|--------|------|-----------|
@@ -59,7 +59,7 @@ python analisis.py
 | 7 | Vendedores | Barras dobles (2 ejes) | Ingresos vs ticket promedio |
 | 8 | Tendencia semanal | Área + media móvil | Tendencia 4 semanas |
 
-## 📗 Hojas del Excel Exportado
+## Hojas del Excel Exportado
 
 | Hoja | Contenido |
 |------|-----------|
@@ -70,7 +70,7 @@ python analisis.py
 | Ciudad x Canal | Pivot de ciudad por canal de venta |
 | Vendedores | Desempeño individual de cada vendedor |
 
-## 🛠️ Tecnologías y Librerías
+## Tecnologías y Librerías
 
 | Librería | Uso |
 |----------|-----|
@@ -79,7 +79,7 @@ python analisis.py
 | **matplotlib** | Todas las visualizaciones (8 gráficas) |
 | **openpyxl** | Exportación a Excel multihojas |
 
-## 💡 Conceptos Aplicados
+## Conceptos Aplicados
 
 - Limpieza de datos (nulos, outliers, validación de dominio)
 - Enriquecimiento: extracción de año, mes, trimestre, día de semana, semana ISO
@@ -88,9 +88,3 @@ python analisis.py
 - Gráficas con doble eje Y (`twinx`)
 - Media móvil con `rolling(window=4)`
 - `ExcelWriter` con múltiples hojas
-
-## 👨‍💻 Autor
-
-**Juan Felipe González Castro**  
-Ingeniería de Sistemas · Universidad Libre · Bogotá, Colombia  
-📧 juanfelipegc016@gmail.com
