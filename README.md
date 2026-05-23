@@ -1,4 +1,4 @@
-# Análisis Exploratorio de Ventas — Tienda de Tecnología (2023)
+# Análisis Exploratorio de Ventas — Tienda de Tecnología
 
 Analisis de datos en Python sobre ventas anuales de una tienda de tecnología colombiana. Incluye limpieza, EDA, 8 gráficas profesionales y exportación a Excel con múltiples hojas formateadas.
 
